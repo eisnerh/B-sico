@@ -81,6 +81,7 @@
             this.txtByte.Name = "txtByte";
             this.txtByte.Size = new System.Drawing.Size(271, 22);
             this.txtByte.TabIndex = 4;
+            this.txtByte.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtByte_KeyPress);
             // 
             // label2
             // 
