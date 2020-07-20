@@ -86,5 +86,24 @@ namespace Basico
                 e.Handled = true;
             }
         }
+
+        private void btnCiclo_Click(object sender, EventArgs e)
+        {
+            string varx = "";
+
+            for (int i = 0; i <= 10; i++)
+            {
+                varx += i.ToString();
+
+                if (i==9)
+                {
+                    break;
+                }
+
+                varx += "-";
+            }
+
+            MessageBox.Show(varx);
+        }
     }
 }
